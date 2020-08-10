@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+      integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>基友聊天室</title>
+  </head>
+  <body>
+    <div class="join-container">
+      <header class="join-header">
+        <h1><i class="fas fa-comments"></i>开开心心每一天</h1>
+      </header>
+      <main class="join-main">
+        <form action="chat.html">
+          <div class="form-control">
+            <label for="username">用户名</label>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="请输入姓名/名称"
+              required
+            />
+          </div>
+          <div class="form-control">
+            <label for="room">房间</label>
+            <select name="room" id="room">
+              <option value="小学">小学</option>
+              <option value="初中">初中</option>
+              <option value="高中">高中</option>
+              <option value="大学">大学</option>
+              <option value="死党">死党</option>
+              <option value="基友">基友</option>
+            </select>
+          </div>
+          <button type="submit" class="btn">加入聊天</button>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>
